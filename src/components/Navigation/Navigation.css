@@ -1,0 +1,38 @@
+.nav {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px 4px rgb(0 0 0 / 13%);
+}
+
+.nav-inner {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  margin: 0;
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: crimson;
+}
+
+.link {
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #c40000;
+}
+
+.active {
+  color: #c40000;
+  font-weight: 600;
+}

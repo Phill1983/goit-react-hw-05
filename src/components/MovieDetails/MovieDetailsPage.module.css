@@ -1,0 +1,22 @@
+.goback {
+  display: inline-block;
+  margin: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.goback:hover {
+  color: #c40000;
+  text-decoration: underline;
+}
+
+.detailsWrapper {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+}
+
+.addinfoWrapper {
+  padding: 0 24px;
+}

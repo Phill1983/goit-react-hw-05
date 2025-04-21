@@ -1,0 +1,37 @@
+ul {
+  list-style: disc;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: underline;
+  color: #333;
+}
+
+a:hover {
+  color: #c40000;
+}
+
+.list {
+  list-style: disc;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.item {
+  margin-bottom: 8px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #333;
+}
+
+.link:hover {
+  color: #c40000;
+}

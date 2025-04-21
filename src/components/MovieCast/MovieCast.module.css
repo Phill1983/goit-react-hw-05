@@ -1,0 +1,31 @@
+.photoPlaceholder {
+  width: 130px;
+  height: 195px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 14px;
+  /* align-items: center;
+  justify-content: center; */
+}
+.actorsList {
+  padding: 0 24px;
+}
+.actorsList ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+.actorsList li {
+  max-width: 130px;
+}
+.actorsList li p {
+  padding: 0 4px;
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,36 @@
+.container {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #c40000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #a80000;
+}
